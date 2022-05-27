@@ -1,0 +1,13 @@
+priority queue (hàng đợi ưu tiên).
+có các đặc điểm: 
+    + mỗi phần tử đều được gán với 1 cấp độ ưu tiên.
+    + phần tử có độ ưu tiên cao hơn sẽ được xóa trước so với phần tử có độ ưu tiên thấp hơn.
+    + với 2 phần tử có độ ưu tiên bằng nhau thì sẽ phụ thuộc vào thứ tự của chúng
+
+priority sẽ bao gồm các thao tác cơ bản: 
+    +insert(item, priority)
+    +gethighest()  
+    +deletehighest()
+
+priority có thể được xây dựng với mảng 1 chiều, linkedlist, cấu trúc heap.
+    với cấu trúc heap các thao tác sẽ hiệu quả hơn và ít tốn thời gian hơn.
